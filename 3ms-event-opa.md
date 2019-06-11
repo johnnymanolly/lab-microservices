@@ -18,5 +18,5 @@ You are required to develop 3 microservices (using either NodeJs or Python) for 
 - - where could OPA potentially reside in the FMS architecture?
 
 # Bonus
-- Provide a simple extension to the FMS services that makes use of OPA.
+- Provide a simple implementation that extends the FMS services and makes use of OPA
 - You can use one of the concepts provided in Part B
