@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  heartbeats:
+    build: ./heartbeats
+    image: heartbeats:latest
+    network_mode: host
+  
+  management:
+    build: ./management
+    image: management:latest
+    network_mode: host
+
+  entities:
+    build: ./entities
+    image: entities:latest
+    network_mode: host
+    ports:
+     - 3000
