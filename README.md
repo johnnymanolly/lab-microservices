@@ -3,7 +3,7 @@
 
 # How To Run
 
-docker-compose build
+docker-compose build  
 docker-compose up
 
 ## Part B
